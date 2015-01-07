@@ -7,7 +7,8 @@ module.exports = function(grunt) {
     sass: {
       production: {
         options: {
-          style: 'compressed'
+          style: 'compressed',
+          require: 'susy'
         },
         files: {
           'build/style.css': 'sass/style.scss'
@@ -15,7 +16,8 @@ module.exports = function(grunt) {
       },
       development: {
         options: {
-          style: 'expanded'
+          style: 'expanded',
+          require: 'susy'
         },
         files: {
           'build/style.css' : 'sass/style.scss'
