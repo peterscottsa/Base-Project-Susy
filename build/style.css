@@ -1,0 +1,8 @@
+.test {
+  background: blue;
+}
+.test .sub-test {
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
