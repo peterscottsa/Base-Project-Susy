@@ -2,3 +2,10 @@
 @import 'base';
 @import 'helpers';
 @import 'modules';
+
+
+.test {
+  display: flex;
+  border-radius: 5px;
+  transition: 1s opacity;
+}

@@ -4,6 +4,16 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     // Task configuration.
+    autoprefixer: {
+      options: {
+        browsers: ['last 8 versions']
+      },
+      production: {
+        files: {
+          'build/build.css' : 'build/build.css'
+        }
+      }
+    },
     sass: {
       production: {
         options: {
@@ -20,14 +30,14 @@ module.exports = function(grunt) {
           require: 'susy'
         },
         files: {
-          'build/style.css' : 'sass/style.scss'
+          'build/build.css' : 'sass/style.scss'
         }
       }
     },
     watch: {
       css: {
         files: 'sass/*.scss',
-        tasks: ['sass:development']
+        tasks: ['sass:development', 'autoprefixer:production']
       }
     }
   });
@@ -39,6 +49,5 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ['sass:production']);
-  grunt.registerTask('dev', ['sass:development','watch']);
-
+  grunt.registerTask('dev', ['sass:development','autoprefixer:production','watch']);
 };
