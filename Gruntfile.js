@@ -45,14 +45,27 @@ module.exports = function(grunt) {
         }
       }
     },
+    wiredep: {
+      task: {
+        src: [
+          'index.html'
+        ],
+        options: {
+        }
+      }
+    },
     watch: {
       css: {
-        files: ['sass/**/*.scss', 'public/**/*.scss'],
+        files: ['sass/**/*.scss'],
         tasks: ['compass:development', 'autoprefixer:production']
       },
       jade: {
         files: ['**/*.jade'],
-        tasks: ['jade:production']
+        tasks: ['jade:production', 'wiredep']
+      },
+      wiredep: {
+        files: ['public/**/*.*'],
+        tasks: ['wiredep']
       }
     }
   });
@@ -62,8 +75,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-wiredep');
 
   // Default task.
   grunt.registerTask('default', ['compass:production']);
-  grunt.registerTask('dev', ['jade:production', 'compass:development','autoprefixer:production','watch']);
+  grunt.registerTask('dev', ['jade:production', 'compass:development','autoprefixer:production', 'wiredep', 'watch']);
 };
