@@ -1,4 +1,3 @@
-/*global module:false*/
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -10,44 +9,61 @@ module.exports = function(grunt) {
       },
       production: {
         files: {
-          'build/build.css' : 'build/build.css'
+          'assets/stylesheets/style.css' : 'assets/stylesheets/style.css'
         }
       }
     },
-    sass: {
+    jade: {
       production: {
         options: {
-          style: 'compressed',
-          require: 'susy'
+          pretty: true
         },
         files: {
-          'build/style.css': 'sass/style.scss'
+          'index.html' : 'index.jade'
+        }
+      }
+    },
+    compass: {
+      options: {
+        httpPath: '',
+        sassDir: 'sass',
+        cssDir: 'assets/stylesheets/',
+        imagesDir: 'assets/images/',
+        fontsDir: 'assets/fonts/',
+        relativeAssets: true
+      },
+      production: {
+        options: {
+          outputStyle: 'compressed',
+          require: 'susy'
         }
       },
       development: {
         options: {
-          style: 'expanded',
+          outputStyle: 'expanded',
           require: 'susy'
-        },
-        files: {
-          'build/build.css' : 'sass/style.scss'
         }
       }
     },
     watch: {
       css: {
-        files: 'sass/*.scss',
-        tasks: ['sass:development', 'autoprefixer:production']
+        files: ['sass/**/*.scss', 'public/**/*.scss'],
+        tasks: ['compass:development', 'autoprefixer:production']
+      },
+      jade: {
+        files: ['**/*.jade'],
+        tasks: ['jade:production']
       }
     }
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', ['sass:production']);
-  grunt.registerTask('dev', ['sass:development','autoprefixer:production','watch']);
+  grunt.registerTask('default', ['compass:production']);
+  grunt.registerTask('dev', ['jade:production', 'compass:development','autoprefixer:production','watch']);
 };
