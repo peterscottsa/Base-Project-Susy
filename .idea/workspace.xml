@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cad35f6-2b5f-4f14-82a5-8418185aebe9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stylesheets/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap-sprockets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/javascripts/bootstrap/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_center-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_opacity.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/bootstrap-sass/sache.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/data/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/effects/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/deletedIds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/a-download.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/audio-audiodata-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/audio-webaudio-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/battery-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/battery-level.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/blob-constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/canvas-todataurl-type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/contenteditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/contentsecuritypolicy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/contextmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/cors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-backgroundposition-shorthand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-backgroundposition-xy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-backgroundrepeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-backgroundsizecover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-boxsizing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-calc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-cubicbezierrange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-displayrunin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-displaytable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-hyphens.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-lastchild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-mask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-mediaqueries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-objectfit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-overflow-scrolling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-pointerevents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-positionsticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-regions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-remunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-scrollbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-shapes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-subpixelfont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-supports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-userselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-vhunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-vmaxunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-vminunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/css-vwunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/custom-protocol-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/dataview-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/dom-classlist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/dom-createElement-attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/dom-dataset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/dom-microdata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-datalist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-output.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-progress-meter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/elem-track.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/emoji.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/es5-strictmode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/event-deviceorientation-motion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/exif-orientation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/file-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/file-filesystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/forms-fileinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/forms-formattribute.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/forms-inputnumber-l10n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/forms-placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/forms-speechinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/forms-validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/fullscreen-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/gamepad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/getusermedia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/ie8compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/iframe-sandbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/iframe-seamless.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/iframe-srcdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/img-apng.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/img-webp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/lists-reversed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/mathml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/network-connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/network-eventsource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/network-xhr2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/performance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/pointerlock-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/quota-management-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/requestanimationframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/script-async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/script-defer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/style-scoped.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/svg-filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/unicode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/url-data-uri.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/userdata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/vibration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/web-intents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/webgl-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/websockets-binary.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/window-framed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/workers-blobworkers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/workers-dataworkers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/feature-detects/workers-sharedworkers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/grunt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/media/Modernizr 2 Logo.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/media/Modernizr 2 Logo.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/media/Modernizr 2 Logo.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/media/Modernizr 2 Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/media/Modernizr 2 Logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/Windsong-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/Windsong-webfont.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/Windsong-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/Windsong-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/Windsong-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/apng_test.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/before-after.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/form_validation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/ga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/green5x5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/hashchange.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/mathml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/mathml_ref.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/modernizr-1.7.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/png_alpha_result.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/pushstate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/red30x30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/ruby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/stroked-text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/svg-html-blur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/svg-img.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/svg-img.svg.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/svg_blur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/text-shadow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/text-shadow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/windsong_font.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/caniuse_files/xhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/dumpdata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/lib/detect-global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/lib/jquery-1.7b2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/lib/jsonselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/lib/polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/lib/uaparser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/unit-caniuse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/js/unit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/qunit/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/qunit/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/modernizr/test/qunit/run-qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/underscore-min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lib/underscore/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_modules.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="" />
+    </list>
+    <ignored path="grunt_test.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="grunt_test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23195876">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/sass/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.jade" />
+        <option value="$PROJECT_DIR$/sass/_base.scss" />
+        <option value="$PROJECT_DIR$/sass/_helpers.scss" />
+        <option value="$PROJECT_DIR$/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/sass/_modules.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
+  </component>
+  <component name="JsGruntFileManager">
+    <gruntfiles>
+      <GruntfileState>
+        <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
+      </GruntfileState>
+    </gruntfiles>
+    <initial>false</initial>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="configurable.group.editor" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="editorconfig.notification" value="Applied .editorconfig settings" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/assets/js/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cad35f6-2b5f-4f14-82a5-8418185aebe9" name="Default" comment="" />
+      <created>1420616233825</created>
+      <option name="number" value="Default" />
+      <updated>1420616233825</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/assets/js/lib/pace.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/js/lib/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_modules.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15957446">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35075653">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffee/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23195876">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

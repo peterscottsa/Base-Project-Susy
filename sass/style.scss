@@ -1,5 +1,17 @@
-// Framework files
+// Variables
 @import 'variables';
+
+// Pace
+@import 'lib/pace';
+
+// Jquery UI
+@import 'lib/jquery-ui.min';
+
+// Bootstrap
+@import 'bootstrap';
+
+// Framework files
 @import 'base';
+@import 'layout';
 @import 'helpers';
 @import 'modules';
